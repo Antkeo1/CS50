@@ -8,7 +8,7 @@ int main(void)
    {
        h = get_int("Height between 1 and 8: ");
     }
-    while (h < 0 || h > 8);
+    while (h < 1 || h > 8);
          
     
     for (int j = 0; j < h; j++) 
@@ -18,7 +18,7 @@ int main(void)
            printf(" ");
        }
         
-        for (int k = 0; k < j + 2; k++) 
+        for (int k = 0; k < j + 1; k++) 
         {
              printf("#"); 
         }
