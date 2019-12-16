@@ -19,6 +19,7 @@ int main(int argc, string argv[])
     }
     
     string plaintext = get_string("plaintext: ");
+    printf("cyphertext: ")
     for (int i = 0, length = strlen(plaintext); i < length; i++)
     {
         if (islower(plaintext[i]))
